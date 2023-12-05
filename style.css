@@ -1,0 +1,42 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+/* 
+*{
+    background-image: url("arbaz\ swim.jpg");
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-position:right;
+
+} */
+
+img{
+/*    width: 500px;
+    height: 300px; */
+    background-size: 150px;
+  width: 500px;
+  height: 300px;
+  border: solid 2px red;
+}
+.image{
+    text-align: center;
+}
+
+body{
+    border-style: dotted;
+    /* border-width: 3px 3px; */
+    border-radius: 10px;
+    padding: 8px;
+    border-color:black ;
+
+}
+
+#audio{
+    text-align: center;
+    /* border-style: dotted; */
+    border-style: ridge double dotted groove;
+    border-width:2px 2px ;
+    /* border-color: rgb(255, 200, 100);*/
+    border-color: red orange blue yellow;
+}
