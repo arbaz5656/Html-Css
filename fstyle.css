@@ -16,12 +16,14 @@ body{
     /* margin-right: 250px; */
     /* margin-bottom: 200px; */
     margin-left: 370px;
+    /* font-size: 20px; */
 }
 /* Elment tag */
 input{
     text-align: center;
     text-decoration: solid;
     margin: 3px;
+    /* font-size: 30px; */
 }
 #lname{
     margin: 3px 3px 3px 4px;
@@ -62,6 +64,8 @@ textarea{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+
+  /*Flex Box  */
 .container{
     border:5px solid red ;
     height: 37vh;
@@ -92,6 +96,27 @@ textarea{
   }
 
   .i3{
-    flex-grow: 1;
-    align-self: center; 
+    flex-grow: 1; 
   }
+
+
+  /*Display Grid */
+
+  .container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* Extra */
+    border-style:ridge;
+    border-color:yellow ;
+    background-color: aqua;
+    margin-top: 10px;
+    padding: 1px;
+  }
+  .item1{
+    border: 1px solid ;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+
